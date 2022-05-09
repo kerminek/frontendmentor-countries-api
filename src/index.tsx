@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement)
 root.render(
   <React.StrictMode>
     <CountriesContext>
-      <BrowserRouter>
+      <BrowserRouter basename="/frontendmentor-countries-api">
         <App />
       </BrowserRouter>
     </CountriesContext>
